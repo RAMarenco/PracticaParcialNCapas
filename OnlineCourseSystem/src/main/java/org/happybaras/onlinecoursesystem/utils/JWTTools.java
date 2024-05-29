@@ -1,9 +1,9 @@
-package org.happybaras.taller3.utils;
+package org.happybaras.onlinecoursesystem.utils;
 
 import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
-import org.happybaras.taller3.domain.entities.User;
+import org.happybaras.onlinecoursesystem.domain.entities.User;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

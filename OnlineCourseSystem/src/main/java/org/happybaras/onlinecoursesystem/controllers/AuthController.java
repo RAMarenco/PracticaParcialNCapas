@@ -1,13 +1,13 @@
-package org.happybaras.taller3.controllers;
+package org.happybaras.onlinecoursesystem.controllers;
 
 import jakarta.validation.Valid;
-import org.happybaras.taller3.domain.dtos.GeneralResponse;
-import org.happybaras.taller3.domain.dtos.TokenDTO;
-import org.happybaras.taller3.domain.dtos.UserLoginDTO;
-import org.happybaras.taller3.domain.dtos.UserRegisterDTO;
-import org.happybaras.taller3.domain.entities.Token;
-import org.happybaras.taller3.domain.entities.User;
-import org.happybaras.taller3.services.UserService;
+import org.happybaras.onlinecoursesystem.domain.dtos.GeneralResponse;
+import org.happybaras.onlinecoursesystem.domain.dtos.TokenDTO;
+import org.happybaras.onlinecoursesystem.domain.dtos.UserLoginDTO;
+import org.happybaras.onlinecoursesystem.domain.dtos.UserRegisterDTO;
+import org.happybaras.onlinecoursesystem.domain.entities.Token;
+import org.happybaras.onlinecoursesystem.domain.entities.User;
+import org.happybaras.onlinecoursesystem.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

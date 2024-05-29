@@ -1,14 +1,14 @@
-package org.happybaras.taller3.services.impl;
+package org.happybaras.onlinecoursesystem.services.impl;
 
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
-import org.happybaras.taller3.domain.dtos.UserRegisterDTO;
-import org.happybaras.taller3.domain.entities.Token;
-import org.happybaras.taller3.domain.entities.User;
-import org.happybaras.taller3.repositories.TokenRepository;
-import org.happybaras.taller3.repositories.UserRepository;
-import org.happybaras.taller3.services.UserService;
-import org.happybaras.taller3.utils.JWTTools;
+import org.happybaras.onlinecoursesystem.domain.dtos.UserRegisterDTO;
+import org.happybaras.onlinecoursesystem.domain.entities.Token;
+import org.happybaras.onlinecoursesystem.domain.entities.User;
+import org.happybaras.onlinecoursesystem.repositories.TokenRepository;
+import org.happybaras.onlinecoursesystem.repositories.UserRepository;
+import org.happybaras.onlinecoursesystem.services.UserService;
+import org.happybaras.onlinecoursesystem.utils.JWTTools;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

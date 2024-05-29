@@ -1,9 +1,9 @@
-package org.happybaras.taller3.services;
+package org.happybaras.onlinecoursesystem.services;
 
-import org.happybaras.taller3.domain.dtos.UserLoginDTO;
-import org.happybaras.taller3.domain.dtos.UserRegisterDTO;
-import org.happybaras.taller3.domain.entities.Token;
-import org.happybaras.taller3.domain.entities.User;
+import org.happybaras.onlinecoursesystem.domain.dtos.UserLoginDTO;
+import org.happybaras.onlinecoursesystem.domain.dtos.UserRegisterDTO;
+import org.happybaras.onlinecoursesystem.domain.entities.Token;
+import org.happybaras.onlinecoursesystem.domain.entities.User;
 
 public interface UserService {
     // Token management

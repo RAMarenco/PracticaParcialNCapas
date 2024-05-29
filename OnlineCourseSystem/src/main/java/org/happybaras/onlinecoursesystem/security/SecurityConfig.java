@@ -1,4 +1,4 @@
-package org.happybaras.taller3.security;
+package org.happybaras.onlinecoursesystem.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

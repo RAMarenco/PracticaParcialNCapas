@@ -1,4 +1,4 @@
-package org.happybaras.taller3.utils;
+package org.happybaras.onlinecoursesystem.utils;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.FieldError;

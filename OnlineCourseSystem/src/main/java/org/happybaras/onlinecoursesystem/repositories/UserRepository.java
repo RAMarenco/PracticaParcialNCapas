@@ -1,6 +1,6 @@
-package org.happybaras.taller3.repositories;
+package org.happybaras.onlinecoursesystem.repositories;
 
-import org.happybaras.taller3.domain.entities.User;
+import org.happybaras.onlinecoursesystem.domain.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
