@@ -1,20 +1,20 @@
 package org.happybaras.onlinecoursesystem.domain.entities;
 
-import com.sun.java.accessibility.util.GUIInitializedListener;
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.UUID;
 
 @Data
+@Table(name = "happy_assistant_course")
 @Entity
-@Table(name = "happy_course")
-public class Course {
+public class AssistantCourse {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private String name;
 
     @ManyToOne(optional = false)
-    private User owner;
+    private User assistant;
+    @ManyToOne(optional = false)
+    private Course course;
 }
