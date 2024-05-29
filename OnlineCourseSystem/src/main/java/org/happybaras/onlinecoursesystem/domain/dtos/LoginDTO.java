@@ -1,4 +1,4 @@
-package org.happybaras.taller3.domain.dtos;
+package org.happybaras.onlinecoursesystem.domain.dtos;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

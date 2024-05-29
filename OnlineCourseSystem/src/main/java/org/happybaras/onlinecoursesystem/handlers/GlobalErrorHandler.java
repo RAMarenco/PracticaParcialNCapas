@@ -1,8 +1,8 @@
-package org.happybaras.taller3.handlers;
+package org.happybaras.onlinecoursesystem.handlers;
 
 import lombok.extern.slf4j.Slf4j;
-import org.happybaras.taller3.domain.dtos.GeneralResponse;
-import org.happybaras.taller3.utils.ErrorMapper;
+import org.happybaras.onlinecoursesystem.domain.dtos.GeneralResponse;
+import org.happybaras.onlinecoursesystem.utils.ErrorMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

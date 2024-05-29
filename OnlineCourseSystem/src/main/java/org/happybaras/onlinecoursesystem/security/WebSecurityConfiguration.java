@@ -1,9 +1,9 @@
-package org.happybaras.taller3.security;
+package org.happybaras.onlinecoursesystem.security;
 
 import jakarta.servlet.http.HttpServletResponse;
-import org.happybaras.taller3.domain.entities.User;
-import org.happybaras.taller3.services.UserService;
-import org.happybaras.taller3.utils.JWTTokenFIlter;
+import org.happybaras.onlinecoursesystem.domain.entities.User;
+import org.happybaras.onlinecoursesystem.services.UserService;
+import org.happybaras.onlinecoursesystem.utils.JWTTokenFIlter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

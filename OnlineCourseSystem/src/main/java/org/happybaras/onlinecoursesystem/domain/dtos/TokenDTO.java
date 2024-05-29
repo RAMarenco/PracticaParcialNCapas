@@ -1,8 +1,8 @@
-package org.happybaras.taller3.domain.dtos;
+package org.happybaras.onlinecoursesystem.domain.dtos;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.happybaras.taller3.domain.entities.Token;
+import org.happybaras.onlinecoursesystem.domain.entities.Token;
 
 @Data
 @NoArgsConstructor

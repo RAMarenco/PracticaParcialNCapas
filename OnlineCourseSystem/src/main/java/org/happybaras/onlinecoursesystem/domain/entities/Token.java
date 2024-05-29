@@ -1,4 +1,4 @@
-package org.happybaras.taller3.domain.entities;
+package org.happybaras.onlinecoursesystem.domain.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
