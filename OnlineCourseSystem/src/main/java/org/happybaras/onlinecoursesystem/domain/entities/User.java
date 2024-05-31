@@ -30,6 +30,10 @@ public class User implements UserDetails {
     @JsonIgnore
     private List<Token> tokens;
 
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    @JsonIgnore
+    private List<Course> courses;
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of();

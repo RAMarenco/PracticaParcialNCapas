@@ -3,6 +3,7 @@ package org.happybaras.onlinecoursesystem.services.impl;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.happybaras.onlinecoursesystem.domain.dtos.UserRegisterDTO;
+import org.happybaras.onlinecoursesystem.domain.entities.Course;
 import org.happybaras.onlinecoursesystem.domain.entities.Token;
 import org.happybaras.onlinecoursesystem.domain.entities.User;
 import org.happybaras.onlinecoursesystem.repositories.TokenRepository;
@@ -111,5 +112,10 @@ public class UserServiceImpl implements UserService {
         user.setPassword(encryptedPassword);
 
         userRepository.save(user);
+    }
+
+    @Override
+    public List<Course> findAllCoursesByUser(User user) {
+        return user.getCourses();
     }
 }
