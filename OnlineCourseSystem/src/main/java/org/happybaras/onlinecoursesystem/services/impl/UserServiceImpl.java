@@ -88,7 +88,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findOneByIdentifier(String identifier) {
-        return userRepository.findOneByUsernameOrEmail(identifier, identifier).orElse(null);
+        return userRepository.findOneByActiveAndUsernameOrEmail(true, identifier, identifier).orElse(null);
     }
 
     @Override
